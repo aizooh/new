@@ -1,3 +1,63 @@
-h1{
-    font-size: large;
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Protest+Guerrilla&display=swap')
+@import url('https://fonts.googleapis.com/css2?family=Calligraffitti&display=swap')
+*{
+    padding: 0%;
+    margin: 0%;
+    
 }
+body{
+    font-family: 'Poppins', sans-serif;
+}
+ul{
+    list-style: none;
+    display: inline-block;
+}
+li{
+    display: inline-block;
+    
+}
+html{
+    scroll-behavior: smooth;
+}
+p{
+    color: rgb(85, 85, 85);
+}
+a, .btn{
+    transition:  300ms ease;
+
+}
+nav, .nav-links{
+    display: flex ;
+    align-items: center;
+    justify-content: space-around;
+    height: 17vh;
+    gap: 5px;
+}
+.nav-links{
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    gap:  40px;
+    font-family: 'Calligraffitti', cursive;
+    
+}
+a{
+    text-decoration: none;
+    text-decoration-color: white;
+    color: black;
+    gap: 5px;
+}
+a:hover{
+    color:burlywood;
+    text-decoration: underline;
+    text-underline-offset: 7px;
+    text-decoration-color: black;
+}
+#logo{
+    font-size: 2rem;
+    /* text-transform: uppercase; */
+}
+#logo:hover{
+    cursor: default;
+}
+

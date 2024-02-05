@@ -1,1 +1,8 @@
-m
+@media screen and (max-width: 1200px) {
+    #desk_nav {
+        display: none;
+    }
+    #nav_2 {
+        display: flex;
+    }
+}

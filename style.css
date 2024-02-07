@@ -127,4 +127,48 @@ icon.open span:first-child{
 .icon span:first-child{
     transform: none;
 }
+section{
+    padding-top: 4vh;
+    height: 96vh;
+    margin: 0 5rem;
+    box-sizing: border-box;
+    min-height: fit-content;
+}
+.social__links{
+    display: flex;
+
+}
+#profile{
+    display: flex;
+    justify-content: center;
+    height: 8vh;
+    gap: 5rem;
+}
+#pic_container{
+    display: flex;
+    height: 400px;
+    width: 400px;
+    margin: auto 0;
+}
+.section_text{
+    text-align: center;
+    align-self: center;
+}
+.section_text p{
+    font-weight: 600;
+}
+.text__p1{
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
 

@@ -167,20 +167,36 @@ section{
 
 }
 .text_p1{
+    position: relative;
+    margin-top: -30rem;
     text-align: center;
     font-family: 'Protest Guerrilla', sans-serif;
-    font-size: 3rem;
+    font-size: 10rem;
 }.text__p2{
-    font-size: 2rem;
+    font-size: 5rem;
     margin-bottom: 1rem;
 
 }
-.text_p1{
-    text-align: center;
-    font-family: 'Protest Guerrilla', sans-serif;
-}
+@keyframes fadeText {
+    0%, 100% {
+      opacity: 1;
+    }
+    50% {
+      opacity: 0;
+    }
+  }
+  
+  .text_fade .title {
+    animation: fadeText 4s infinite alternate;
+  }
+  
+  .text_fade .text__p2 {
+    opacity: 0; /* Initial opacity for the second text */
+    animation: fadeText 5s infinite alternate;
+    animation-delay: 2s; /* Delay the start of the second text animation */
+  }
 .title{
-    font-size: 3rem;
+    font-size: 17rem;
     text-align: center;
     font-family: 'Protest Guerrilla', sans-serif;
 }
@@ -194,10 +210,7 @@ section{
     cursor: pointer;
     height: 2rem;
 }
-/* .icon */
-.icon{
 
-}
 #btn_container{
     display: flex;
     justify-content: center;
@@ -420,6 +433,7 @@ section {
 
 .about-pic {
   border-radius: 2rem;
+  padding: 2rem;
 }
 
 .arrow {
